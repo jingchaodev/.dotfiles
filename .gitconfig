@@ -1,0 +1,26 @@
+[user]
+	email = cjingcha@amazon.com
+	name = Jingchao Cao
+[color]
+	ui = auto
+[core]
+	pager = delta
+	excludesfile = /Users/cjingcha/.gitignore_global
+[commit]
+	template = /Users/cjingcha/.gitmessage
+[pull]
+	rebase = true
+[interactive]
+	diffFilter = delta --color-only
+[push]
+	default = simple
+[alias]
+	dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+[delta]
+	navigate = true
+	line-numbers = true
+	side-by-side = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
