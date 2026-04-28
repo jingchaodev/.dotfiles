@@ -26,3 +26,7 @@ Personal dotfiles for shell and IDE configuration.
 
 ## Notes
 - Updated on April 27, 2026 to include latest zsh, git, and kaku configs.
+
+## iTerm2 Setup
+- Preferences are stored in `iterm2/com.googlecode.iterm2.plist`.
+- To sync: Open iTerm2 → **Settings > General > Preferences** → Check **"Load preferences from a custom folder or URL"** → Select the `~/.dotfiles/iterm2` folder.
